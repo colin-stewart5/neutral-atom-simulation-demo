@@ -1,0 +1,22 @@
+[build-stystem]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neutral-atom-demo"
+version = "0.1.0"
+description = "Minimal example of a two-qubit, neutral-atom open quantum system"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+	"numpy",
+	"scipy",
+	"matplotlib",
+	"qutip"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://git.doit.wisc.edu/cjstewart5/neutral-atom-simulation-demo" 
