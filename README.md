@@ -15,6 +15,7 @@ Features:
 - Time-dependent Rabi drive
 
 Installation:
+
 git clone https://github.com/colin-stewart5/neutral-atom-simulation-demo.git
 
 cd neutral-atom-simulation-demo
