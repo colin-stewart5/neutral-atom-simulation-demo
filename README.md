@@ -28,7 +28,7 @@ neutral atom quantum simulations.
 
 ```bash
 git clone https://github.com/colin-stewart5/neutral-atom-simulation-demo.git
-cd neutral-atom-simulation-demO
+cd neutral-atom-simulation-demo
 python3 -m venv .venv
 source .venv/bin/activate
 
